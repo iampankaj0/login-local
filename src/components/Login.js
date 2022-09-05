@@ -3,7 +3,7 @@ import React, { useContext, useState } from "react";
 import { useHistory } from "react-router-dom";
 import styled from "styled-components";
 import { activeUser } from "../context/UserContext";
-import Menu from "./Menu";
+import Menu from "../components/Menu"
 
 const Main = styled.div`
   display: flex;

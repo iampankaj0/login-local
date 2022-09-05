@@ -18,12 +18,8 @@ const App = () => {
   // useEffect(() => {
   //   setLoginUser(JSON.parse(localStorage.getItem("myUser")));
   // }, []);
-  useEffect(() => {
-    setLoginUser(localStorage.getItem("myUser"));
-  }, []);
 
-  console.log("useruseruser" + user);
-
+  console.log("userStringify" + JSON.stringify(user));
   return (
     <div>
       <Switch>
